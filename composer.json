@@ -1,0 +1,26 @@
+{
+    "name": "grahh/assignee-checklist",
+    "description": "This package allows generating Assignee Checklist for release/merge processes.",
+    "type": "cli application",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "artem filipopovskii",
+            "email": "frontend.fillart@gmail.com"
+        },
+        {
+            "name": "vadym pyskunov",
+            "email": "v.pyskunov3004@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Grahh\\AssigneeChecklist": "src/"
+        }
+    },
+    "scripts": {
+        "checklist": "./bin/generator -c manifest.json"
+    }
+}
