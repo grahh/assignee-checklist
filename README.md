@@ -7,3 +7,7 @@ The product of this package is a table, where Yes/No/Answers are stored in key-v
 ## Example
 
 `/vendor/bin/grahh/assignee-checklist/bin/generator -c manifest.json`
+
+OR 
+
+`composer run checklist`
